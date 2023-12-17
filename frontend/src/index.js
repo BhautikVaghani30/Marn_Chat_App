@@ -6,6 +6,9 @@ import reportWebVitals from "./reportWebVitals";
 import { ChakraProvider } from "@chakra-ui/react";
 import ChatProvider from "./Context/ChatProvider";
 import { BrowserRouter } from "react-router-dom";
+// import { GraphQLFileLoader } from '@graphql-tools/graphql-file-loader';
+// import { addResolversToSchema } from '@graphql-tools/schema';
+// import { loadSchema } from '@graphql-tools/load';
 
 ReactDOM.render(
   <ChakraProvider>
